@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Restaurant Web Site</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- ! header section start -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/chefLogo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="products.html">Products</a>
+        <a href="review.html" class="active">Review</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="bi bi-search"></i>
+        </button>
+        <button id="cart-btn">
+          <i class="bi bi-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="bi bi-list"></i>
+        </button>
+      </div>
+      <div class="search-form">
+        <input
+          type="search"
+          class="search-input"
+          id="search-box"
+          placeholder="Search"
+        />
+        <i class="bi bi-search"></i>
+      </div>
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="bi bi-x"></i>
+          <img src="images/burger.jpg" alt="menu" />
+          <div class="content">
+            <h3>cart item 1</h3>
+            <div class="price">$14.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="bi bi-x"></i>
+          <img src="images/pizza_menu.jpg" alt="menu" />
+          <div class="content">
+            <h3>cart item 2</h3>
+            <div class="price">$8.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="bi bi-x"></i>
+          <img src="images/wrap_menu.jpg" alt="menu" />
+          <div class="content">
+            <h3>cart item 3</h3>
+            <div class="price">$10.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="bi bi-x"></i>
+          <img src="images/toast_menu.jpg" alt="menu" />
+          <div class="content">
+            <h3>cart item 4</h3>
+            <div class="price">$13.99/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+    <!-- ! header section end -->
+
+    <!-- ! review section start -->
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+            explicabo incidunt facilis officia placeat suscipit aliquam modi
+            distinctio culpa temporibus obcaecati iusto amet, magni officiis vel
+            unde necessitatibus? Quisquam aliquam eum facilis doloremque.
+            Corporis, nobis!
+          </p>
+          <img src="images/avatar-1.png" alt="avatar" class="user" />
+          <h3>Jennifer Becker</h3>
+          <div class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+            explicabo incidunt facilis officia placeat suscipit aliquam modi
+            distinctio culpa temporibus obcaecati iusto amet, magni officiis vel
+            unde necessitatibus? Quisquam aliquam eum facilis doloremque.
+            Corporis, nobis!
+          </p>
+          <img src="images/avatar-2.png" alt="avatar" class="user" />
+          <h3>John Doe</h3>
+          <div class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
+            explicabo incidunt facilis officia placeat suscipit aliquam modi
+            distinctio culpa temporibus obcaecati iusto amet, magni officiis vel
+            unde necessitatibus? Quisquam aliquam eum facilis doloremque.
+            Corporis, nobis!
+          </p>
+          <img src="images/avatar-3.png" alt="avatar" class="user" />
+          <h3>Lisa Arambula</h3>
+          <div class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ! review section end -->
+
+    <!-- ! footer section start -->
+    <section class="footer">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Search" />
+        <button class="btn btn-primary">search</button>
+      </div>
+      <div class="share">
+        <a href="#" class="bi bi-facebook"></a>
+        <a href="#" class="bi bi-twitter-x"></a>
+        <a href="#" class="bi bi-instagram"></a>
+        <a href="#" class="bi bi-linkedin"></a>
+        <a href="#" class="bi bi-pinterest"></a>
+      </div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="products.html">Products</a>
+        <a href="review.html">Review</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Blog</a>
+      </div>
+      <div class="credit">
+        created by <span>Rafet Çelik</span> | all right reserved
+      </div>
+    </section>
+    <!-- ! footer section end -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
